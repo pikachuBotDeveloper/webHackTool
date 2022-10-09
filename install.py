@@ -1,15 +1,9 @@
-# !/usr/bin/env python
-# -*- coding: utf-8 -*-
-# turkhackteam.org/net
-# Coded By Connec - Safak-Bey
-#  .::Green Team::.
-
 import os
 import time
 
-print("\033[1;31m[\033[1;33m*\033[1;31m]\033[1;32m turkhackteam.org/net")
+print("\033[1;31m[\033[1;33m*\033[1;31m]\033[1;32m legal-izm.org/net")
 time.sleep(1)
-print("\033[1;31m[\033[1;33m*\033[1;31m]\033[1;32m Green Team Araç Kiti")
+print("\033[1;31m[\033[1;33m*\033[1;31m]\033[1;32m webHackTool")
 time.sleep(2)
 print("\033[1;31m[\033[1;33m*\033[1;31m]\033[1;32m Ek paketler hazırlanıyor")
 time.sleep(2)

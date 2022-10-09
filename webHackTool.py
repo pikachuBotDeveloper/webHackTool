@@ -34,11 +34,13 @@ soru_isareti = kirmizi + "[" + yesil + "?" + kirmizi + "]" + sifirla
 unlem = kirmizi + "[" + yesil + "!" + kirmizi + "]" + sifirla
 
 menu = "\033[1m" + """
-  ____                       _  ___ _   
- / ___|_ __ ___  ___ _ __   | |/ (_) |_ 
-| |  _| '__/ _ \/ _ \ '_ \  | ' /| | __|
-| |_| | | |  __/  __/ | | | | . \| | |_ 
- \____|_|  \___|\___|_| |_| |_|\_\_|\__|
+
+ _      _____ ____    _     ____  ____  _  __   _____  ____  ____  _    
+/ \  /|/  __//  _ \  / \ /|/  _ \/   _\/ |/ /  /__ __\/  _ \/  _ \/ \   
+| |  |||  \  | | //  | |_||| / \||  /  |   /     / \  | / \|| / \|| |   
+| |/\|||  /_ | |_\\  | | ||| |-|||  \_ |   \     | |  | \_/|| \_/|| |_/\
+\_/  \|\____\\____/  \_/ \|\_/ \|\____/\_|\_\    \_/  \____/\____/\____/
+                                                                        
 
 \033[0;31m[\033[0;33m1\033[0;31m]> \033[0;32m\033[1mNmap - Ağ Taramasi
 \033[0;31m[\033[0;33m2\033[0;31m]> \033[0;32m\033[1mWpScan - WordPress Site Hacking
@@ -757,7 +759,7 @@ try:
 
         elif (islem == "h"):
             print("""
-Green Kit V1.0 - Coded by Connec - SafakBey for GreenTeam - TürkHackTeam 
+WebHackTool V1.0 - Coded by plaguexx 
 e [exit]: Green Kit'ten çıkış yapar.
 h [help]: Yardım bölümünü yazdırır.
 clear: Terminali temizler.
