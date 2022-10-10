@@ -54,7 +54,7 @@ menu = "\033[1m" + """
 \033[0;31m[\033[0;33mh\033[0;31m]> \033[0;32m\033[1mHelp
 \033[0;31m[\033[0;33me\033[0;31m]> \033[0;32m\033[1mExit
 """
-print(colored(menu, "green"))
+print(colored(menu, "webHackTool"))
 try:
     while True:
         islem = input(baslik)
@@ -119,7 +119,7 @@ try:
 
                     elif (soru == "9"):
                         print(arti + " Ana menüye dönülüyor...\n")
-                        print(colored(menu, "green"))
+                        print(colored(menu, "webHackTool"))
                         break
 
                     else:
@@ -166,7 +166,7 @@ try:
 
                     elif (islem == "5"):
                         print(arti + " Ana Menüye Dönülüyor.")
-                        print(colored(menu, "green"))
+                        print(colored(menu, "webHackTool"))
                         break
 
                     else:
@@ -651,7 +651,7 @@ try:
                     elif (soru == "h"):
                         print("\n" + arti + " Ana menüye dönülüyor...")
                         time.sleep(2)
-                        print(colored(menu, "green"))
+                        print(colored(menu, "webHackTool"))
                         break
                     else:
                         print("Geçerli bir işlem seçiniz.")
@@ -676,7 +676,7 @@ try:
                     elif (soru == "h"):
                         print("\n" + arti + " Ana menüye dönülüyor...")
                         time.sleep(2)
-                        print(colored(menu, "green"))
+                        print(colored(menu, "webHackTool"))
                         break
                     else:
                         print("Geçerli bir işlem seçiniz.")
@@ -701,7 +701,7 @@ try:
                     elif (soru == "h"):
                         print("\n" + arti + " Ana menüye dönülüyor...")
                         time.sleep(2)
-                        print(colored(menu, "green"))
+                        print(colored(menu, "webHackTool"))
                         break
                     else:
                         print("Geçerli bir işlem seçiniz.")
@@ -724,7 +724,7 @@ try:
                     elif (soru == "h"):
                         print("\n" + arti + " Ana menüye dönülüyor...")
                         time.sleep(2)
-                        print(colored(menu, "green"))
+                        print(colored(menu, "webHackTool"))
                         break
                     else:
                         print("Geçerli bir işlem seçiniz.")
@@ -747,7 +747,7 @@ try:
                     elif (soru == "h"):
                         print("\n" + arti + " Ana menüye dönülüyor...")
                         time.sleep(2)
-                        print(colored(menu, "green"))
+                        print(colored(menu, "webHackTool"))
                         break
                     else:
                         print("Geçerli bir işlem seçiniz.")
@@ -774,10 +774,10 @@ menu: Ana menüyü yazdırır.
             os.system("clear")
 
         elif (islem == "menu"):
-            print(colored(menu, "green"))
+            print(colored(menu, "webHackTool"))
 
         else:
-            print(colored(unlem + " Geçerli bir işlem seçiniz!", "green"))
+            print(colored(unlem + " Geçerli bir işlem seçiniz!", "webHackTool"))
 except KeyboardInterrupt:
     print(arti + """
 Çıkış Yapılıyor...""")
