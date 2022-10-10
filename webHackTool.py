@@ -1,9 +1,3 @@
-# !/usr/bin/env python
-# -*- coding: utf-8 -*-
-# turkhackteam.org/net
-# Coded By Connec - Safak-Bey
-#  .::Green Team::.
-
 import os
 import time
 from termcolor import colored
